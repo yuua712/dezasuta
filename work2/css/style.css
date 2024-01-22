@@ -5,6 +5,7 @@
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+    gap: 20px;
 }
 
 .box > div {
@@ -29,6 +30,8 @@
 
 .header {
     max-width: 960px;
+    display: flex;
+    align-items: center;
 }
 
 .header-left h1 {
@@ -60,6 +63,10 @@
 
     .header-left h1 {
         padding: 0;
+    }
+
+    .header {
+        display: block;
     }
 }    
 
